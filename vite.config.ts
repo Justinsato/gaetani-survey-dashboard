@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Base path is '/' for Azure Static Web Apps as they serve from the domain root
+  // The base URL for the site (no need to change for Azure Static Web Apps)
   base: '/',
 });
