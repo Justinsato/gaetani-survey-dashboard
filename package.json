@@ -1,6 +1,7 @@
 {
   "name": "gaetani-survey-dashboard",
   "version": "1.0.0",
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/gaetani-survey-dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
