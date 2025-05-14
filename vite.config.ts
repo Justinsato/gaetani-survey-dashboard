@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Add base path - use your repository name if deploying to GitHub Pages
-  base: '/gaetani-survey-dashboard/',
+  // Base path is '/' for Azure Static Web Apps as they serve from the domain root
+  base: '/',
 });
